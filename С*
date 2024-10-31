@@ -43,3 +43,22 @@ while(pow(i,s)<=a){
 }
 } //Задача третья: выводит все степени двойки в данном числовом массиве
 
+#include <iostream>
+using namespace std;
+int main(){
+int n;
+cin>>n;
+int i = 1;
+while(i%n != 0){
+    i=i*2;
+    
+}
+if (i == n){
+    cout<<"YES";
+    }
+   else
+{
+    cout<<"NO";
+}
+} //Задача четвертая: проверяет введенное число на то степень ли она двойки
+
