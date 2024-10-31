@@ -1,0 +1,14 @@
+
+#include <iostream>
+using namespace std;
+int main()
+{
+int n;
+cin>>n;
+int t = 1;
+while(t*t<=n){
+   cout <<t*t<<" ";
+   t++;
+}
+return 0;
+} //Задача первая: выводит все степени натур. чисел
